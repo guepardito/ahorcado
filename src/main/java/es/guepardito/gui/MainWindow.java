@@ -82,7 +82,9 @@ public class MainWindow extends JFrame {
         if (userInput != null && !userInput.isEmpty()) {
             secretWord = userInput.toUpperCase();
             actualWord = new StringBuilder();
-            actualWord.append("_".repeat(secretWord.length()));
+            for (int i = 0; i < secretWord.length(); i++) {
+                actualWord.append('_');
+            }
             characterList.clear();
             HANGED_NUM = 0;
             letters = secretWord.length();
