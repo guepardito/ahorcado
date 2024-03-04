@@ -1,0 +1,1 @@
+Es un ahorcado cutre hecho en una tarde, no esperes mucho
